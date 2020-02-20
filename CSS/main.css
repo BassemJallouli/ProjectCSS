@@ -54,8 +54,8 @@
     height: 0;
   }
 
-  .overflow-hidden {
-    overflow: hidden;
+  .overflow-scroll {
+    overflow: scroll;
     height: 35px;
   }
   
