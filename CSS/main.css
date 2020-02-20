@@ -2,6 +2,26 @@
     font-family: "Times New Roman", Georgia, serif;
     text-align: center;
   }
+nav {
+    width: auto;
+    max-width: 500px;
+    background-color: salmon;
+    margin: 16px auto;
+    /*16px auto 32px */
+    }
+
+nav ul {
+  text-align: center;  
+  padding: 0;
+    }
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+  }
+
   article {
   width: 1200px;
   margin-left: auto;
