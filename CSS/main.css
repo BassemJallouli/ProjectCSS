@@ -53,3 +53,13 @@
     list-style: none;
     height: 0;
   }
+
+  .overflow-hidden {
+    overflow: hidden;
+    height: 35px;
+  }
+  
+  .overflow-visible { /*visiblity for button*/
+    overflow: visible;
+    height: 35px;
+  }
