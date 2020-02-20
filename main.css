@@ -1,0 +1,14 @@
+p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgb(33, 33, 33 ); /* There area few ways to do colour...*/
+  background-color: #eeeeee; 
+  }
+
+  article {
+width: 600px;
+margin-left: auto;
+margin-right: auto;
+
+  }
