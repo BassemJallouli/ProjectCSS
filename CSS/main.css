@@ -1,13 +1,61 @@
-  h1 {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;/* content of box*/
+    
+  }
+  #happy-practice{
+    float: left;
+    margin-top: 0;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-left: 0;
+    /* margin: 0 16px 16px 0; */
+  }
+  #z-index-practice {
+    display: block; /* image is block to add more options */
+    position: absolute;
+    top: 300px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1; /* visual layering think photoshop element should 
+    appear on top */
+  }
+  body {
+    background-image: url('../img/winter.jpg');
+    background-size: cover;        /*cover the whole element*/
+    background-repeat: no-repeat;  /*show one of the image, instead of limited titles.*/
+    background-position: center;   /*can also bo co-ordinates like 50 px 75px*/
+    background-attachment: fixed;  /* fix backgroud */
+
+  }
+  h1 h2 h4, h5, h6 {
     font-family: "Times New Roman", Georgia, serif;
     text-align: center;
+    padding-top: 50px;
+    font-size: 46px;
+  }
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  h2 {
+    font-size: 32px;
+    padding: 16px;
   }
 nav {
     width: auto;
-    max-width: 500px;
+    max-width: 500px;  
     background-color: salmon;
     margin: 16px auto;
-    /*16px auto 32px */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+
     }
 
 nav ul {
@@ -29,7 +77,7 @@ nav ul {
   }
 
   article {
-  width: 1200px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px;
@@ -41,7 +89,7 @@ nav ul {
   font-size: 15px;
   line-height: 1.5;
   color: rgb(33, 33, 33 ); /* There area few ways to do colour...*/
-  background-color: #eeeeee; 
+  background-color: none; 
   }
 
   /* Text meant only for screen readers. */
