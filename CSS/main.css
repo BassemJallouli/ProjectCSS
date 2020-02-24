@@ -205,3 +205,17 @@ nav ul {
     top: 20;
     left: 0;
   }
+  #social-media-links 
+  {
+    list-style: none;
+    text-align: center;
+  }
+  #social-media-links > li /* direct child selector ">", the li must be directly inside the element with the "social-media-links" id in this case */
+  {
+    display: inline-block;
+  }
+  #social-media-links .fab
+  {
+    font-size: 55px;
+    color: blue;
+  }
