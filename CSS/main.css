@@ -227,8 +227,12 @@ nav ul {
 
   }
 
-  @media screen and (min-width: 500px) 
+  @media screen and (min-width: 1024px) 
   {
+    body{
+      background: green;
+    }
+    
     h1 {
     font-size: 64px;
       }
